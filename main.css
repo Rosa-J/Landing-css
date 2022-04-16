@@ -157,7 +157,7 @@ h5{
     margin: 40px auto 100px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(3, 33.3%);
     align-items: center;
     line-height: 30px;
 }
@@ -306,6 +306,9 @@ h5{
     box-shadow: 0 20px 15px 0 rgba(26, 72, 100, 0.1);
     border: solid 1px #c3d5e0;
     background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0feff);
+}
+.tarjCaracteristica:hover{
+    border: 1px solid #007fff; 
 }
 .tarjCaracteristica img{
     height: 35px;
